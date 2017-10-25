@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <equipmentProfile standard="true" name="standard" schemeVersion="3.1" equipmentName="Wind_turbine" equipmentClass="1" description="Test_v3.1">
-	<shaft mainShaft="true" speedCollection="1509" schemeName="shaft001" elementProcessingEnable="1" classType="shaft" equipmentDataPoint="1,2" imagePositionIndex="2" imageX="751" imageY="446" imageWidth="1298" imageHeight="77" imageSlopeDegree="0">
-		<bearing supporting="true" schemeName="bearing001" elementProcessingEnable="1" classType="rollingBearing:deepGrooveBallBearing" equipmentDataPoint="1" model="6322/C3" Nb="8" Bd="41.275" Pd="175.006" angle="0" imagePositionIndex="1" imageX="232" imageY="446" imageWidth="330" imageHeight="132" imageSlopeDegree="0"/>
+	<shaft mainShaft="true" speedCollection="1509" schemeName="shaft01" elementProcessingEnable="1" classType="shaft" equipmentDataPoint="1,2" imagePositionIndex="2" imageX="751" imageY="446" imageWidth="1298" imageHeight="77" imageSlopeDegree="0">
+		<bearing supporting="true" schemeName="bearing001" elementProcessingEnable="1" classType="rollingBearing:deepGrooveBallBearing" equipmentDataPoint="1" model="6322/C3" Nb="8" Bd="41.275" Pd="175.006" angle="0" imagePositionIndex="12" imageX="232" imageY="446" imageWidth="330" imageHeight="132" imageSlopeDegree="0"/>
 		<bearing supporting="true" schemeName="bearing002" elementProcessingEnable="1" classType="rollingBearing:deepGrooveBallBearing" equipmentDataPoint="1" model="6322/C3" Nb="8" Bd="41.275" Pd="175.006" angle="0" imagePositionIndex="4" imageX="936" imageY="446" imageWidth="330" imageHeight="132" imageSlopeDegree="0"/>
 	</shaft>
-	<motor schemeName="motor001" elementProcessingEnable="1" classType="inductionMotor" equipmentDataPoint="1" model="M2CG 400XL 4 B3" lineFrequency="50" barsNumber="1" polePairsNumber="2" imagePositionIndex="3" imageX="672" imageY="446" imageWidth="550" imageHeight="330" imageSlopeDegree="0">
-		<joint jointElementSchemeName="shaft001"/>
+	
 	</motor>
 </equipmentProfile>
