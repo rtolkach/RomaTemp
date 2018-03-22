@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipmentProfile equipmentDataPoints="1,2" standard="true" name="standard" version="3.3.0" equipmentName="someDataset" id="91521274" equipmentClass="motor" equipmentPower="1" equipmentSupport="flexible" description="">
+	<shaft mainShaft="true" speedCollection="1740" schemeName="shaft001" elementProcessingEnable="1" classType="shaft" group="" equipmentDataPoint="1,2" imagePositionIndex="2" imageX="751" imageY="446" imageWidth="1298" imageHeight="77" imageSlopeDegree="0">
+		<bearing supporting="true" schemeName="bearing001" elementProcessingEnable="1" classType="rollingBearing:deepGrooveBallBearing" group="" equipmentDataPoint="1" model="none" Nb="9" Bd="7.9375" Pd="38.5" angle="0" imagePositionIndex="1" imageX="232" imageY="446" imageWidth="330" imageHeight="132" imageSlopeDegree="0"/>
+	</shaft>
+</equipmentProfile>

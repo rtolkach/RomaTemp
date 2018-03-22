@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipmentProfile equipmentDataPoints="1" standard="true" name="standard" version="3.3.0" id="35064839" equipmentName="standVibroBox" equipmentClass="motor" equipmentPower="1.1" equipmentSupport="flexible" description="Chinese bearing with a defect of rolling elements. JAP - China">
+	<shaft mainShaft="true" speedCollection="650" schemeName="shaft001" classType="shaft" group="" elementProcessingEnable="0" equipmentDataPoint="1" imagePositionIndex="2" imageX="609" imageY="324" imageWidth="1120" imageHeight="64" imageSlopeDegree="0">
+		<bearing supporting="true" schemeName="bearing001" elementProcessingEnable="0" classType="rollingBearing:deepGrooveBallBearing" group="" equipmentDataPoint="1" model="6205" Nb="9" Bd="0.312" Pd="1.535" angle="0" imagePositionIndex="1" imageX="169" imageY="324" imageWidth="208" imageHeight="104" imageSlopeDegree="0"/>
+		<bearing supporting="true" schemeName="bearing002" elementProcessingEnable="0" classType="rollingBearing:deepGrooveBallBearing" group="" equipmentDataPoint="1" model="6205" Nb="9" Bd="0.312" Pd="1.535" angle="0" imagePositionIndex="4" imageX="809" imageY="324" imageWidth="208" imageHeight="104" imageSlopeDegree="0"/>
+		<bearing schemeName="bearing003" elementProcessingEnable="1" classType="rollingBearing:sphericalRollerBearing" group="" equipmentDataPoint="1" model="22213C W33 JAP" Nb="17" Bd="13.7" Pd="95.048" angle="9.25" imagePositionIndex="5" imageX="1049" imageY="324" imageWidth="208" imageHeight="104" imageSlopeDegree="0"/>
+	</shaft>
+</equipmentProfile>

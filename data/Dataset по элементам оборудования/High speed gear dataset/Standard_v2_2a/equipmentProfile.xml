@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipmentProfile standard="true" name="standard" schemeVersion="2.2a" equipmentName="standInternet" description="Igor" equipmentClass="1">
+	<shaft mainShaft="true" speedCollection="1800" schemeName="shaft001" elementProcessingEnable="1" classType="shaft" equipmentDataPoint="1" imagePositionIndex="1" imageX="309" imageY="238" imageWidth="525" imageHeight="30" imageSlopeDegree="0">
+	</shaft>
+	<connection schemeName="gearing001" elementProcessingEnable="1" classType="gearing" equipmentDataPoint="1" imagePositionIndex="2" imageX="258" imageY="505" imageWidth="285" imageHeight="75" imageSlopeDegree="90">
+        <shaft schemeName="shaft001" teethNumber="32"/>
+        <shaft schemeName="shaft002" teethNumber="32"/>
+    </connection>
+</equipmentProfile>

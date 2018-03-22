@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipmentProfile standard="true" name="standard" schemeVersion="3.2.3" equipmentName="someDataset" equipmentClass="1" description="Test_v3.1">
+	<shaft mainShaft="true" speedCollection="2000" schemeName="shaft001" elementProcessingEnable="1" classType="shaft" equipmentDataPoint="1,2" imagePositionIndex="2" imageX="751" imageY="446" imageWidth="1298" imageHeight="77" imageSlopeDegree="0">
+		<bearing supporting="true" schemeName="bearing001" elementProcessingEnable="1" classType="rollingBearing:deepGrooveBallBearing" equipmentDataPoint="1" model="none" Nb="16" Bd="8.4" Pd="71.5" angle="15.17" imagePositionIndex="1" imageX="232" imageY="446" imageWidth="330" imageHeight="132" imageSlopeDegree="0"/>
+	</shaft>
+</equipmentProfile>
