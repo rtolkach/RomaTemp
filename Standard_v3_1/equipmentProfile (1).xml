@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipmentProfile standard="true" name="standard" schemeVersion="3.2.3" equipmentName="millPQFstand4" description="BMZ" equipmentClass="1">
+	<shaft mainShaft="true" speedCollection="559" schemeName="shaft001" elementProcessingEnable="1" classType="shaft" equipmentDataPoint="1, 2" imagePositionIndex="2" imageX="385" imageY="308" imageWidth="732" imageHeight="36" imageSlopeDegree="0">
+		<bearing supporting="true" schemeName="bearing001" elementProcessingEnable="1" classType="rollingBearing:taperedRollerBearing" equipmentDataPoint="1" model="32218 X/DF" Nb="20" Bd="19.39" Pd="123.934" angle="0" imagePositionIndex="1" imageX="118" imageY="308" imageWidth="161" imageHeight="76" imageSlopeDegree="0"/>
+		<bearing supporting="true" schemeName="bearing002" elementProcessingEnable="1" classType="rollingBearing:sphericalRollerBearing" equipmentDataPoint="1" model="22220 E" Nb="19" Bd="21.5" Pd="142.201" angle="9.116" imagePositionIndex="3" imageX="491" imageY="308" imageWidth="161" imageHeight="76" imageSlopeDegree="0"/>
+	</shaft>
+	<shaft schemeName="shaft002" elementProcessingEnable="1" classType="shaft" equipmentDataPoint="1" imagePositionIndex="5" imageX="829" imageY="405" imageWidth="732" imageHeight="36" imageSlopeDegree="45">
+		<bearing supporting="true" schemeName="bearing003" elementProcessingEnable="1" classType="rollingBearing:sphericalRollerBearing" equipmentDataPoint="1" model="23022 CC/W33" Nb="26" Bd="14" Pd="141.86" angle="8.833" imagePositionIndex="4" imageX="624" imageY="422" imageWidth="161" imageHeight="76" imageSlopeDegree="45"/>
+		<bearing supporting="true" schemeName="bearing005" elementProcessingEnable="1" classType="rollingBearing:taperedRollerBearing" equipmentDataPoint="1" model="32024 X/DF" Nb="30" Bd="15.05" Pd="150.051" angle="0" imagePositionIndex="10" imageX="1035" imageY="198" imageWidth="161" imageHeight="76" imageSlopeDegree="45"/>
+	</shaft>
+	<shaft schemeName="shaft003" elementProcessingEnable="1" classType="shaft" equipmentDataPoint="1" imagePositionIndex="9" imageX="1178" imageY="733" imageWidth="593" imageHeight="50" imageSlopeDegree="45">
+		<bearing supporting="true" schemeName="bearing004" elementProcessingEnable="1" classType="rollingBearing:taperedRollerBearing" equipmentDataPoint="1" model="32022 X/DF" Nb="28" Bd="15.05" Pd="140.609" angle="0" imagePositionIndex="8" imageX="1062" imageY="671" imageWidth="161" imageHeight="76" imageSlopeDegree="45"/>
+		<bearing supporting="true" schemeName="bearing006" elementProcessingEnable="1" classType="rollingBearing:sphericalRollerBearing" equipmentDataPoint="1" model="23024 CC/W33" Nb="27" Bd="15" Pd="152.704" angle="8.416" imagePositionIndex="11" imageX="1295" imageY="439" imageWidth="161" imageHeight="76" imageSlopeDegree="45"/>
+	</shaft>
+	<connection schemeName="gearing001" elementProcessingEnable="1" classType="gearing" equipmentDataPoint="1" imagePositionIndex="6" imageX="736" imageY="382" imageWidth="554" imageHeight="290" imageSlopeDegree="-45">
+        <shaft schemeName="shaft001" teethNumber="19"/>
+        <shaft schemeName="shaft002" teethNumber="28"/>
+    </connection>
+	<connection schemeName="gearing002" elementProcessingEnable="1" classType="gearing" equipmentDataPoint="1" imagePositionIndex="7" imageX="1116" imageY="474" imageWidth="819" imageHeight="189" imageSlopeDegree="-45">
+        <shaft schemeName="shaft002" teethNumber="24"/>
+        <shaft schemeName="shaft003" teethNumber="79"/>
+    </connection>
+</equipmentProfile>
