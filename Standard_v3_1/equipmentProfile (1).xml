@@ -12,7 +12,7 @@
 		<bearing supporting="true" schemeName="bearing004" elementProcessingEnable="1" classType="rollingBearing:taperedRollerBearing" equipmentDataPoint="1" model="32022 X/DF" Nb="28" Bd="15.05" Pd="140.609" angle="0" imagePositionIndex="8" imageX="1062" imageY="671" imageWidth="161" imageHeight="76" imageSlopeDegree="45"/>
 		<bearing supporting="true" schemeName="bearing006" elementProcessingEnable="1" classType="rollingBearing:sphericalRollerBearing" equipmentDataPoint="1" model="23024 CC/W33" Nb="27" Bd="15" Pd="152.704" angle="8.416" imagePositionIndex="11" imageX="1295" imageY="439" imageWidth="161" imageHeight="76" imageSlopeDegree="45"/>
 	</shaft>
-	<connection schemeName="gearing001" elementProcessingEnable="1" classType="gearing" equipmentDataPoint="1" imagePositionIndex="6" imageX="736" imageY="382" imageWidth="554" imageHeight="290" imageSlopeDegree="-45">
+	<connection schemeName="gearing001" elementProcessingEnable="0" classType="gearing" equipmentDataPoint="1" imagePositionIndex="6" imageX="736" imageY="382" imageWidth="554" imageHeight="290" imageSlopeDegree="-45">
         <shaft schemeName="shaft001" teethNumber="19"/>
         <shaft schemeName="shaft002" teethNumber="28"/>
     </connection>
